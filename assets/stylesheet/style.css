@@ -1,0 +1,4 @@
+.new-border {
+    border: 20px solid transparent;
+    border-image: linear-gradient(45deg, red, blue);
+}
