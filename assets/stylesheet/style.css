@@ -1,4 +1,46 @@
+main {
+    background-image: url('../images/flagUSA.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
 .new-border {
-    border: 20px solid transparent;
-    border-image: linear-gradient(45deg, red, blue);
+    border: 20px solid transparent;  
+    -moz-border-image: -moz-linear-gradient(top, #fd0101 0%, #0c0266 100%);  
+    -webkit-border-image: -webkit-linear-gradient(top, #fd0101 0%, #0c0266 100%);  
+    border-image: linear-gradient(to bottombottom, #fd0101 0%, #0c0266 100%);  
+    border-image-slice: 1;  
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.twitter:hover {
+    color: #0c0266;
+}
+.instagram:hover {
+    color: #e66465;
+}
+
+.hover-item:hover {
+    background-image: linear-gradient(to right, #fd0101 0%, #0c0266 100%);
+    -moz-background-image: -moz-linear-gradient(to right, #fd0101 0%, #0c0266 100%);
+    -webkit-background-image: -webkit-linear-gradient(to right, #fd0101 0%, #0c0266 100%);
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.hover-item:hover em {
+    font-weight: bold;
+}
+#other {
+    outline: none;
+}
+
+.gif {
+    width: 60%;
 }
