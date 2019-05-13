@@ -37,10 +37,6 @@ main {
 .hover-item:hover em {
     font-weight: bold;
 }
-#other {
-    outline: none;
-}
-
 .gif {
     width: 60%;
 }
