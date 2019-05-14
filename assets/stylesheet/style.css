@@ -6,9 +6,9 @@ main {
 }
 .new-border {
     border: 20px solid transparent;  
-    -moz-border-image: -moz-linear-gradient(top, #fd0101 0%, #0c0266 100%);  
-    -webkit-border-image: -webkit-linear-gradient(top, #fd0101 0%, #0c0266 100%);  
-    border-image: linear-gradient(to bottombottom, #fd0101 0%, #0c0266 100%);  
+    -moz-border-image: -moz-linear-gradient(top, #fd0101 0%, #0c0266 66%, #ffffff 100%);  
+    -webkit-border-image: -webkit-linear-gradient(top, #fd0101 0%, #0c0266 66%, #ffffff 100%);  
+    border-image: linear-gradient(to bottombottom, #fd0101 0%, #0c0266 66%, #ffffff 100%);  
     border-image-slice: 1;  
 }
 
